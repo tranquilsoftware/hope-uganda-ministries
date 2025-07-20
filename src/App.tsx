@@ -9,16 +9,12 @@ import StatisticsCounter from './components/StatisticsCounter';
 
 import DonateCTA from './components/DonateCTA'
 import SocialSection from './components/SocialSection'
-// import FAQ from './components/FAQ'
 import GoogleMapEmbed from './components/GoogleMapEmbed'
-// import { EclipseTransition } from './components/transitions/EclipseTransition';
 
 // import Header from './components/ui/header/Header'
 import FloatingHeader from './components/ui/header/FloatingHeader'
 import SlickSlide from './components/ui/SlickSlide';
 import { BubbleTransition } from './components/transitions/BubbleTransition';
-// import ModernFloatingHeader from './components/ui/header/ModernFloatingHeader'
-// import SimplisticFloatingHeader from './components/ui/header/SimplisticFloatingHeader'
 
 const pageVariants = {
   initial: {

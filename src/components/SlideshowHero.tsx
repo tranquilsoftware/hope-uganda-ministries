@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useEffect, useState } from 'react'
-import { BRAND_NAME, HERO_IMAGES } from '../globals' //, LOGO 
+import { BRAND_NAME, HERO_IMAGES, LOGO } from '../globals' //, LOGO 
 
 // Using HERO_IMAGES from globals for centralized image management
 
@@ -94,7 +94,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
 
-            {/* LOGO *-/}
+            {/* LOGO */}
             <motion.div
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
@@ -107,7 +107,7 @@ export default function Hero() {
                 className="w-full h-full object-contain"
               />
             </motion.div>
-            */}
+            
             <motion.div 
               className="w-full overflow-hidden"
               initial={{ scale: 0.9 }}

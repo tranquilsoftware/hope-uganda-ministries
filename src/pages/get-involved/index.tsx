@@ -1,12 +1,13 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { useLocation, useNavigate, Outlet } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { DollarSign, Users, Mail, TrendingUp, Menu as MenuIcon, Home, ArrowRight } from 'lucide-react';
+import { DollarSign, Users, Mail, TrendingUp, Menu as MenuIcon, Home } from 'lucide-react';
 import { getInvolvedSections } from './config';
 import Footer from "../../components/Footer";
 import { ScrollAnimation } from '../../components/animations/ScrollAnimation';
-import { GlowButton } from '../../components/ui/GlowButton';
+// import { GlowButton } from '../../components/ui/GlowButton';
 import { IMG_1 } from '../../globals';
+import FloatingHeader from '../../components/ui/header/FloatingHeader';
 
 // Define the type for icon names
 type IconName = 'dollar-sign' | 'trending-up' | 'users' | 'mail' | 'menu' | 'home';
@@ -62,6 +63,9 @@ function GetInvolved() {
 
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
+
+      <FloatingHeader />
+
       {/* Hero Section */}
       <div className="relative w-full h-[300px]" style={{ maxWidth: '100%', height: '300px' }}>
         <img 
@@ -118,7 +122,7 @@ function GetInvolved() {
           </div>
 
           {/* CTA */}
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <GlowButton 
               onClick={() => handleNavigation('/get-involved/contact')}
               variant="darkblock"
@@ -126,7 +130,7 @@ function GetInvolved() {
             >
               Contact Us <ArrowRight className="w-6 h-6 ml-2" />
             </GlowButton>
-          </div>
+          </div> */}
         </div>
       </section>
       

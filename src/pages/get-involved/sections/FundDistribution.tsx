@@ -22,16 +22,16 @@ export default function FundDistribution({ onNavigate }: GetInvolvedSectionProps
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-4">
             <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-100">
-              <h4 className="font-semibold text-yellow-800">95% - Food and Basic Needs</h4>
+              <h4 className="font-semibold text-yellow-800">50% - Food and Basic Needs</h4>
               <p className="text-sm text-yellow-700 mt-1">
                 The majority of funds go directly to providing meals, clean water, and essential supplies to those in need.
               </p>
             </div>
 
             <div className="bg-blue-50 p-4 rounded-lg border border-blue-100">
-              <h4 className="font-semibold text-blue-800">5% - Bibles and Spiritual Materials</h4>
+              <h4 className="font-semibold text-blue-800">50% - Bibles and Church</h4>
               <p className="text-sm text-blue-700 mt-1">
-                A small portion is allocated to providing spiritual nourishment through Bibles and Christian literature.
+                A portion is allocated to providing spiritual nourishment through Bibles.
               </p>
             </div>
           </div>
@@ -44,12 +44,12 @@ export default function FundDistribution({ onNavigate }: GetInvolvedSectionProps
               </p>
             </div>
 
-            <div className="bg-purple-50 p-4 rounded-lg border border-purple-100">
+            {/* <div className="bg-purple-50 p-4 rounded-lg border border-purple-100">
               <h4 className="font-semibold text-purple-800">Transparent Reporting</h4>
               <p className="text-sm text-purple-700 mt-1">
                 We provide regular updates and financial reports to show the impact of your donations.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 

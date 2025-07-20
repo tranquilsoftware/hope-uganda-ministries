@@ -86,7 +86,7 @@ export default function Fundraising({ onNavigate }: GetInvolvedSectionProps) {
               </div>
             </div>
 
-            <div className="p-5 bg-green-50 rounded-lg">
+            {/* <div className="p-5 bg-green-50 rounded-lg">
               <h4 className="font-semibold text-gray-900 mb-3">Fundraising Resources</h4>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start">
@@ -97,12 +97,9 @@ export default function Fundraising({ onNavigate }: GetInvolvedSectionProps) {
                   <span className="text-green-500 mr-2">•</span>
                   <span>Use our social media templates</span>
                 </li>
-                <li className="flex items-start">
-                  <span className="text-green-500 mr-2">•</span>
-                  <span>Access our logo and brand assets</span>
-                </li>
+
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

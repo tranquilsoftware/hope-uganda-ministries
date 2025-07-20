@@ -15,17 +15,16 @@ export const GOOGLE_MAPS_PLACE = 'https://www.google.com/maps/embed?pb=!1m14!1m8
 // - youtube channel 
 
 
-export const LOGO = 'http://clipart-library.com/img/910326.png'; // 2048x2048 see views: http://clipart-library.com/img/910326.png
-// export const SMALL_LOGO = 'https://i.imgur.com/CdnTZ20.png'; // 128x128 see views: https://imgur.com/a/ZpAPk1B
-export const SMALL_LOGO = LOGO;
+export const LOGO = 'assets/images/logo.png'; // 2048x2048 see views: http://clipart-library.com/img/910326.png
+export const SMALL_LOGO = 'assets/images/small-logo.png';
 
 
 
 // IMAGES
 export const IMG_1 = 'assets/images/0.jpg';
 export const IMG_2 = 'assets/images/1.jpg';
-// export const IMG_3 = 'assets/images/2.jpg';
-// export const IMG_4 = 'assets/images/3.jpg';
+export const IMG_3 = 'assets/images/2.jpg';
+export const IMG_4 = 'assets/images/3.jpg';
 
 // owners
 export const OWNER_JOHNWEST = 'assets/images/johnwest.jpg';
@@ -35,8 +34,9 @@ export const OWNER_ROSEMARY = 'assets/images/rosemary.jpg';
 export const HERO_IMAGES = [
   IMG_1,
   IMG_2,
-  // IMG_3,
-  // IMG_4
+  IMG_3,
+  IMG_4,
+  OWNER_JOHNWEST
 ];
 
 /// SEE LoadingScreen.tsx (for preloading images.)
@@ -81,7 +81,7 @@ export const getDaysOperating = () => {
 };
 
 export const getTotalMealsServed = () => {
-  return CHILDREN_FED_DAILY * getDaysOperating() * .33;
+  return CHILDREN_FED_DAILY * getDaysOperating() / 100;
 };
 
 // href links

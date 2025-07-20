@@ -12,7 +12,7 @@ import LoadingSpinner from './components/ui/LoadingSpinner';
 // Lazy load the section components
 const FundDistribution = lazy(() => import('./pages/get-involved/sections/FundDistribution'));
 const Fundraising = lazy(() => import('./pages/get-involved/sections/Fundraising'));
-const Volunteer = lazy(() => import('./pages/get-involved/sections/Volunteer'));
+// const Volunteer = lazy(() => import('./pages/get-involved/sections/Volunteer'));
 const Contact = lazy(() => import('./pages/get-involved/sections/Contact'));
 
 const AnimatedRoutes = () => (
@@ -65,14 +65,14 @@ export const router = createBrowserRouter([
               </Suspense>
             ),
           },
-          {
-            path: 'volunteer',
-            element: (
-              <Suspense fallback={<LoadingSpinner />}>
-                <Volunteer />
-              </Suspense>
-            ),
-          },
+          // {
+          //   path: 'volunteer',
+          //   element: (
+          //     <Suspense fallback={<LoadingSpinner />}>
+          //       <Volunteer />
+          //     </Suspense>
+          //   ),
+          // },
           {
             path: 'contact',
             element: (

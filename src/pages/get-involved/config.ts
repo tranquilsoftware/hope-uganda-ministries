@@ -19,7 +19,7 @@ export interface GetInvolvedSectionProps {
 // Lazy load components for better performance
 const FundDistribution = lazy(() => import('./sections/FundDistribution'));
 const Fundraising = lazy(() => import('./sections/Fundraising'));
-const Volunteer = lazy(() => import('./sections/Volunteer'));
+// const Volunteer = lazy(() => import('./sections/Volunteer'));
 const Contact = lazy(() => import('./sections/Contact'));
 
 // Navigation items with their respective icons and paths
@@ -45,13 +45,13 @@ export const getInvolvedSections: NavItem[] = [
     icon: 'trending-up',
     component: Fundraising,
   },
-  {
-    id: 'volunteer',
-    title: 'Volunteer',
-    path: '/get-involved/volunteer',
-    icon: 'users',
-    component: Volunteer,
-  },
+  // {
+  //   id: 'volunteer',
+  //   title: 'Volunteer',
+  //   path: '/get-involved/volunteer',
+  //   icon: 'users',
+  //   component: Volunteer,
+  // },
   {
     id: 'contact',
     title: 'Contact',

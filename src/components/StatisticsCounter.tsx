@@ -26,8 +26,8 @@ const StatisticsCounter: React.FC = () => {
       id: 'children',
       icon: <Users className="w-12 h-12 text-primary group-hover:scale-125 group-hover:rotate-3 transition-all duration-500 ease-out" />,
       value: childrenAmount,
-      label: 'Children Fed Daily',
-      suffix: '+'
+      label: 'Children Helped Daily',
+      suffix: ''
     },
     {
       id: 'days',

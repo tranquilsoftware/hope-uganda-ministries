@@ -5,7 +5,7 @@ export const BRAND_NAME = 'Hope Uganda Ministries';
 export const OWNER_NAME = 'Johnmary Johnwest Mweseezi';
 export const BRIEF_DESCRIPTION = 'Our church ministry is dedicated to fostering a strong sense of community through faith, worship, and outreach. We aim to build bridges, offer support, and share God’s word with love and compassion. Join us to experience spiritual growth and a sense of belonging as we journey together in faith.';
 export const COOL_PITCH = 'A non-profit ministry of hope, teaching, feeding the hungry, thirsty orphans with food and spiritual food';
-export const GOOGLE_MAPS_PLACE = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.9891182023!2d31.739488!3d-0.341913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d78e9710fa0cd3%3A0x3f370f3a43d14b0e!2sMasaka%2C%20Uganda!5e0!3m2!1sen!2sus!4v1752973218383!5m2!1sen!2sus';
+export const GOOGLE_MAPS_PLACE = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.059066888363!2d31.746066805010432!3d-0.31666647953388316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d78dd4e023e9d7%3A0x9784209fefab37af!2sNyendo%2C%20Uganda!5e0!3m2!1sen!2sau!4v1753081932887!5m2!1sen!2sau';
 
 // TODO:
 // logo - favicon
@@ -25,10 +25,23 @@ export const IMG_1 = 'assets/images/0.jpg';
 export const IMG_2 = 'assets/images/1.jpg';
 export const IMG_3 = 'assets/images/2.jpg';
 export const IMG_4 = 'assets/images/3.jpg';
+export const IMG_5 = 'assets/images/4.jpg';
+export const IMG_6 = 'assets/images/5.jpg';
 
-// owners
-export const OWNER_JOHNWEST = 'assets/images/johnwest.jpg';
-export const OWNER_ROSEMARY = 'assets/images/rosemary.jpg';
+// Team Members
+export const TEAM_JOHNWEST = 'assets/images/johnwest.jpg';
+export const TEAM_NABUUSO = 'assets/images/nabuuso.jpg';
+// export const TEAM_RICHARD = 'assets/images/richard.jpg';
+export const TEAM_RICHARD = IMG_1;
+
+// Team Members
+// RICHARD_NUMBER +256 752 821 990
+// ROSE_NUMBER +256 758 384 165
+
+// Keep old exports for backward compatibility
+export const OWNER_JOHNWEST = TEAM_JOHNWEST;
+export const OWNER_ROSE = TEAM_NABUUSO;
+// export const OWNER_RICHARD = TEAM_RICHARD;
 
 
 export const HERO_IMAGES = [
@@ -36,6 +49,7 @@ export const HERO_IMAGES = [
   IMG_2,
   IMG_3,
   IMG_4,
+  IMG_6,
   OWNER_JOHNWEST
 ];
 
@@ -45,7 +59,7 @@ export const LOAD_IMAGES = [
   SMALL_LOGO,
 
   OWNER_JOHNWEST,
-  OWNER_ROSEMARY,
+  OWNER_ROSE,
 
   ...HERO_IMAGES
 ];
@@ -53,7 +67,11 @@ export const LOAD_IMAGES = [
 // contact details
 export const AVAILABILITY = 'Every day'; // used in footer
 export const CONTACT_PHONE = '+256-788 603 550'; // used in footer
-export const CONTACT_EMAIL = 'hopeofrphans@gmail.com'; // used in footer
+
+export const CONTACT_EMAIL = 'hopeoforphans@gmail.com'; // used in footer
+export const CONTACT_JOHNMARY_EMAIL = 'johnmary.moller@gmail.com';
+export const CONTACT_RICHARD_EMAIL = 'kayembarichardk@gmail.com';
+
 export const INSTAGRAM_USERNAME = 'johnmary_johnwest';
 export const INSTAGRAM_LINK = `https://www.instagram.com/${INSTAGRAM_USERNAME}/`;
 export const FACEBOOK_USERNAME = 'hopeoforphans';
@@ -65,10 +83,13 @@ export const YOUTUBE_LINK = 'https://www.youtube.com/@johnmary8';
 
 // Western Union Details TODO
 export const WESTERN_UNION_INFO = {
-  recipient: 'John West',
-  city: 'Kampala',
+  recipient: 'Johnmary John West Mwesezi',
+  email: CONTACT_JOHNMARY_EMAIL,
+  address: 'Nyendo',
+  city: 'Masaka',
   country: 'Uganda',
-  contactAfterSending: true
+  phone: '+256788603550',
+  contactAfterSending: false
 };
 
 // Ministry Statistics

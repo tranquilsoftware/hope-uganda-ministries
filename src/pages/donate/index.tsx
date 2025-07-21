@@ -4,6 +4,8 @@ import FloatingHeader from '../../components/ui/header/FloatingHeader';
 import { ScrollAnimation } from '../../components/animations/ScrollAnimation';
 import { ArrowRight, CreditCard, Globe } from 'lucide-react';
 import { ReactNode } from 'react';
+import { GlowButton } from '../../components/ui/GlowButton';
+import { useNavigation } from '../../utils/navigationUtils';
 
 interface DonationCardProps {
   icon: ReactNode;
@@ -28,7 +30,7 @@ const DonationCard = ({
   gradientTo,
   className = ''
 }: DonationCardProps) => (
-  <div className={`flex flex-col bg-background p-8 rounded-2xl shadow-lg h-full ${className}`}>
+  <div className={`flex flex-col bg-background-dark p-8 rounded-2xl shadow-lg h-full ${className}`}>
     <div className="flex-1">
       <div className={`w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br ${gradientFrom} ${gradientTo} flex items-center justify-center`}>
         {icon}
@@ -58,6 +60,8 @@ const DonationCard = ({
 );
 
 function Donate() {
+    const handleNavigation = useNavigation();
+  
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
       <FloatingHeader />
@@ -119,16 +123,19 @@ function Donate() {
               description={
                 <>
                   <p>Send your donation via Western Union to:</p>
-                  <div className="bg-background rounded-lg p-4 font-mono text-sm mt-2 mb-2">
+                  <div className="bg-background rounded-lg p-4 font-mono text-sm mt-2 mb-2 space-y-1">
                     <p>Recipient: {WESTERN_UNION_INFO.recipient}</p>
+                    <p>Email: {WESTERN_UNION_INFO.email}</p>
+                    <p>Address: {WESTERN_UNION_INFO.address}</p>
                     <p>City: {WESTERN_UNION_INFO.city}</p>
                     <p>Country: {WESTERN_UNION_INFO.country}</p>
+                    <p>Phone: {WESTERN_UNION_INFO.phone}</p>
                   </div>
-                  {WESTERN_UNION_INFO.contactAfterSending && (
+                  {/* {WESTERN_UNION_INFO.contactAfterSending && (
                     <p className="text-sm text-content-offtone/70">
                       Please contact us after sending for confirmation.
                     </p>
-                  )}
+                  )} */}
                 </>
               }
               buttonText="Visit Western Union"
@@ -147,12 +154,14 @@ function Donate() {
               Interested in other ways to contribute? Contact us to discuss sponsorship opportunities,
               in-kind donations, or volunteer work.
             </p>
-            <a 
-              href="/contact" 
-              className="inline-flex items-center text-primary hover:text-primary/80 transition-colors duration-200 font-medium"
-            >
-              Contact Us <ArrowRight className="w-4 h-4 ml-2" />
-            </a>
+
+              <GlowButton 
+                onClick={() => handleNavigation('#contact')}
+                variant="darkblock"
+                className="mt-8 w-full md:w-auto"
+              >
+                Get In Touch <ArrowRight className="w-6 h-6 ml-2" />
+              </GlowButton>
           </div>
         </div>
       </section>

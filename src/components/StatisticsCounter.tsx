@@ -105,7 +105,7 @@ const StatisticsCounter: React.FC = () => {
                     <AnimatedCounter value={stat.value} />
                     {stat.suffix}
                   </div>
-                  <p className="text-sm text-content-muted">
+                  <p className="text-sm text-content-secondary">
                     {stat.label}
                   </p>
                 </div>

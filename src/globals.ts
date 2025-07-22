@@ -9,10 +9,9 @@ export const GOOGLE_MAPS_PLACE = 'https://www.google.com/maps/embed?pb=!1m18!1m1
 
 // TODO:
 // logo - favicon
-// - where our money is going
-// - where our ministry is located.
-// - what we do
+// - what we do (testimony)
 // - youtube channel 
+// -donors section (feature johnwest's first donor)
 
 
 export const LOGO = 'assets/images/logo.png'; // 2048x2048 see views: http://clipart-library.com/img/910326.png
@@ -29,10 +28,9 @@ export const IMG_5 = 'assets/images/4.jpg';
 export const IMG_6 = 'assets/images/5.jpg';
 
 // Team Members
-export const TEAM_JOHNWEST = 'assets/images/johnwest.jpg';
+export const TEAM_JOHNWEST = 'assets/images/johnwest-1.jpg';
 export const TEAM_NABUUSO = 'assets/images/nabuuso.jpg';
-// export const TEAM_RICHARD = 'assets/images/richard.jpg';
-export const TEAM_RICHARD = IMG_1;
+export const TEAM_RICHARD = 'assets/images/richard.jpg';
 
 // Team Members
 // RICHARD_NUMBER +256 752 821 990
@@ -41,16 +39,16 @@ export const TEAM_RICHARD = IMG_1;
 // Keep old exports for backward compatibility
 export const OWNER_JOHNWEST = TEAM_JOHNWEST;
 export const OWNER_ROSE = TEAM_NABUUSO;
-// export const OWNER_RICHARD = TEAM_RICHARD;
+export const OWNER_RICHARD = TEAM_RICHARD;
 
 
 export const HERO_IMAGES = [
   IMG_1,
   IMG_2,
   IMG_3,
-  IMG_4,
+  // IMG_4,
   IMG_6,
-  OWNER_JOHNWEST
+  // OWNER_JOHNWEST
 ];
 
 /// SEE LoadingScreen.tsx (for preloading images.)

@@ -123,7 +123,7 @@ function Donate() {
               description={
                 <>
                   <p>Send your donation via Western Union to:</p>
-                  <div className="bg-background rounded-lg p-4 font-mono text-sm mt-2 mb-2 space-y-1">
+                  <div className="bg-background rounded-lg p-4 font-mono text-sm mt-2 mb-2 space-y-1 text-black">
                     <p>Recipient: {WESTERN_UNION_INFO.recipient}</p>
                     <p>Email: {WESTERN_UNION_INFO.email}</p>
                     <p>Address: {WESTERN_UNION_INFO.address}</p>

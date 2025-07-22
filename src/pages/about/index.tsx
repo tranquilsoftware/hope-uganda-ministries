@@ -1,5 +1,5 @@
 import Footer from '../../components/Footer';
-import { IMG_1, BRAND_NAME, BRIEF_DESCRIPTION, TEAM_JOHNWEST, TEAM_NABUUSO, TEAM_RICHARD } from '../../globals';
+import { IMG_1, BRIEF_DESCRIPTION, TEAM_JOHNWEST, TEAM_NABUUSO, TEAM_RICHARD } from '../../globals';
 import { ScrollAnimation } from '../../components/animations/ScrollAnimation';
 import { ArrowRight } from 'lucide-react';
 import { GlowButton } from '../../components/ui/GlowButton';
@@ -47,7 +47,7 @@ const handleNavigation = useNavigation();
               <div className="bg-background-dark p-8 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 overflow-hidden border-2 border-primary/30">
                   <img 
-                    src={TEAM_JOHNWEST} 
+                    src={TEAM_JOHNWEST}
                     alt="John West"
                     className="w-full h-full object-cover"
                   />
@@ -58,7 +58,7 @@ const handleNavigation = useNavigation();
                 <ul className="space-y-2 text-content-offtone text-center">
                   <li className="text-primary font-medium">Founder & Project Implementer</li>
                   <li>Visionary leader and spiritual guide</li>
-                  <li>Over 15 years of ministry experience</li>
+                  <li>Over 7 years of ministry experience</li>
                   <li>Passionate about community development</li>
                 </ul>
               </div>
@@ -67,7 +67,7 @@ const handleNavigation = useNavigation();
               <div className="bg-background-dark p-8 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-b from-accent/20 to-primary/20 overflow-hidden border-2 border-accent/30">
                   <img 
-                    src={TEAM_NABUUSO} 
+                    src={TEAM_NABUUSO}
                     alt="Nabuuso Rose"
                     className="w-full h-full object-cover"
                   />
@@ -78,8 +78,7 @@ const handleNavigation = useNavigation();
                 <ul className="space-y-2 text-content-offtone text-center">
                   <li className="text-primary font-medium">Project Accountant</li>
                   <li>Leads community outreach programs</li>
-                  <li>Focus on women and children's welfare</li>
-                  <li>Skilled in community mobilization</li>
+
                 </ul>
               </div>
               
@@ -87,7 +86,7 @@ const handleNavigation = useNavigation();
               <div className="bg-background-dark p-8 rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105">
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-bl from-primary/20 to-accent/20 overflow-hidden border-2 border-primary/30">
                   <img 
-                    src={TEAM_RICHARD} 
+                    src={TEAM_RICHARD}
                     alt="Richard"
                     className="w-full h-full object-cover"
                   />
@@ -97,7 +96,6 @@ const handleNavigation = useNavigation();
                 </h3>
                 <ul className="space-y-2 text-content-offtone text-center">
                   <li className="text-primary font-medium">Project Monitor & Teacher</li>
-                  <li>Coordinates daily ministry operations</li>
                   <li>Ensures program effectiveness</li>
                   <li>Teaches children</li>
                 </ul>

@@ -35,7 +35,7 @@ const cardData: CardData[] = [
     id: "corporate",
     title: "Corporate Giving",
     subtitle: "Let's become partners",
-    href: "/get-involved/corporate-fundraising",
+    href: "/get-involved/fundraising", // todo
     icon: Briefcase,
     featured: false,
   },
@@ -71,7 +71,7 @@ function IconCard({ card }: IconCardProps) {
       >
         {/* Arrow Icon */}
         <div className="absolute top-4 right-4 opacity-60 group-hover:opacity-100 transition-opacity duration-300">
-          <ArrowUpRight className={`w-5 h-5 ${featured ? 'text-foreground' : 'text-accent'}`} />
+          <ArrowUpRight className={`w-5 h-5 ${featured ? 'text-content-foreground' : 'text-content-secondary'}`} />
         </div>
 
         {/* Main Icon */}
@@ -93,7 +93,7 @@ function IconCard({ card }: IconCardProps) {
             <h3
               className={`
               text-lg font-semibold mb-2 transition-all duration-300
-              ${featured ? "text-foreground" : "text-content"}
+              ${featured ? "text-content-foreground" : "text-content-primary"}
             `}
             >
               {title}
@@ -101,7 +101,7 @@ function IconCard({ card }: IconCardProps) {
             <p
               className={`
               text-sm transition-all duration-300
-              ${featured ? "text-foreground/80" : "text-content-muted"}
+              ${featured ? "text-content-foreground/80" : "text-content-secondary"}
             `}
             >
               {subtitle}

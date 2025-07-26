@@ -8,6 +8,3 @@ export interface NavItem {
   component?: React.ComponentType; // Made optional as we're using Outlet for rendering
 }
 
-export interface GetInvolvedSectionProps {
-  onNavigate?: (path: string) => void;
-}

@@ -102,7 +102,6 @@ function GetInvolved() {
           {/* <div className="bg-background-light rounded-2xl shadow-lg p-8 max-w-5xl mx-auto"> */}
           <div className="bg-background-secondary rounded-2xl shadow-lg p-8 max-w-5xl mx-auto">
 
-            <AnimatePresence mode="wait">
               <motion.div
                 key={location.pathname}
                 initial={{ opacity: 0, y: 20 }}
@@ -118,7 +117,7 @@ function GetInvolved() {
                   <Outlet />
                 </Suspense>
               </motion.div>
-            </AnimatePresence>
+
           </div>
 
           {/* CTA */}

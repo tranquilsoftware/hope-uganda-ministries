@@ -1,7 +1,8 @@
 import { DollarSign } from 'lucide-react';
-import { GetInvolvedSectionProps } from '../types';
+import { useNavigation } from '../../../utils/navigationUtils';
 
-export default function FundDistribution({ onNavigate }: GetInvolvedSectionProps) {
+export default function FundDistribution() {
+  const handleNavigation = useNavigation();
   return (
     <div className="space-y-6">
       <div className="flex items-center space-x-4 mb-6">
@@ -55,7 +56,8 @@ export default function FundDistribution({ onNavigate }: GetInvolvedSectionProps
 
         <div className="pt-4 mt-6 border-t border-gray-100">
           <button
-            onClick={() => onNavigate?.('/donate')}
+            onClick={() => handleNavigation('/donate')}
+
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 transition-colors"
           >
             Make a Donation

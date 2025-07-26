@@ -75,14 +75,16 @@ export const DonateCTA = () => {
               <Heart className="w-10 h-10 text-primary" />
             </div>
             <h2 className="text-3xl font-bold text-content-white mb-2">
-              Support Our Children
+              Support The Children
             </h2>
             <p className="text-content-offtone mb-8">
               Your donation helps provide food, education, and care for children in need.
             </p>
             <button
               onClick={handleDonateClick}
-              className="w-full py-4 px-6 bg-primary hover:bg-primary/90 text-dark text-lg font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
+              // className="w-full py-4 px-6 bg-primary hover:bg-primary/90 text-dark text-lg font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
+              className="w-full py-4 px-6 bg-secondary hover:bg-secondary/90 text-dark text-lg font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
+
             >
               <Heart className="w-5 h-5" />
               Donate Now

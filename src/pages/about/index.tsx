@@ -77,7 +77,7 @@ const handleNavigation = useNavigation();
                 </h3>
                 <ul className="space-y-2 text-content-offtone text-center">
                   <li className="text-primary font-medium">Project Accountant</li>
-                  <li>Leads community outreach programs</li>
+                  <li>Accounts for the ministries finances</li>
 
                 </ul>
               </div>

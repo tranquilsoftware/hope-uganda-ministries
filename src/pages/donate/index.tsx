@@ -1,5 +1,5 @@
 import Footer from '../../components/Footer';
-import { IMG_1, BRAND_NAME, PAYPAL_LINK, WESTERN_UNION_INFO } from '../../globals';
+import { IMG_4, BRAND_NAME, PAYPAL_LINK, WESTERN_UNION_INFO } from '../../globals';
 import FloatingHeader from '../../components/ui/header/FloatingHeader';
 import { ScrollAnimation } from '../../components/animations/ScrollAnimation';
 import { ArrowRight, CreditCard, Globe } from 'lucide-react';
@@ -69,7 +69,7 @@ function Donate() {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]" style={{ maxWidth: '100%', height: '300px' }}>
         <img 
-          src={IMG_1} 
+          src={IMG_4} 
           alt={BRAND_NAME}
           className="w-full h-full object-cover shadow-lg"
           style={{ maxWidth: '100%' }}

@@ -70,7 +70,7 @@ export const CONTACT_EMAIL = 'hopeoforphans@gmail.com'; // used in footer
 export const CONTACT_JOHNMARY_EMAIL = 'johnmary.moller@gmail.com';
 export const CONTACT_RICHARD_EMAIL = 'kayembarichardk@gmail.com';
 
-export const INSTAGRAM_USERNAME = 'johnmary_johnwest';
+export const INSTAGRAM_USERNAME = 'hopeugandaministries';
 export const INSTAGRAM_LINK = `https://www.instagram.com/${INSTAGRAM_USERNAME}/`;
 export const FACEBOOK_USERNAME = 'hopeoforphans';
 export const FACEBOOK_LINK = `https://www.facebook.com/${FACEBOOK_USERNAME}`;
@@ -109,3 +109,29 @@ export const TRANQUILSOFTWARE_LINK = 'https://tranquilsoftware.com/';
 export const HREF_LINK_DONATE = '/donate';
 
 
+
+
+// PERSONAL TESTIMONY
+// BY JOHN MARY.
+// I was born and raised in Uganda , where I witnessed firsthand the struggles and hardships faced by many children and families. Growing up, I felt a deep sense of purpose to serve and make a difference in my community . Though God’s guidance, I found my calling in serving  vulnerable children and sharing the love of Christ.
+// As I navigated life’s challenges, I experienced God’s unwavering presence and provision . His love transformed my heart , and I became  passionate about spreading hope and joy to those in need . Today , lam humbled to lead hope Uganda ministries , dedicated to empowering children and communication through Christian values and holistic support.
+
+// When I was young I did not attend church because I was homeless and an orphan who was constantly moving from one place to another. I did not have a place to stay and I also had financial problems. But I had a Gideon’s international Bible and another publication which had the book of Revelation written in it. I used to read those two books and I loved reading them , but I really didn’t understand well what I was reading. Because of hunger and being homeless it crippled my mind.
+
+
+
+
+
+
+// STATEMENT OF FAITH
+// BY JOHNMARY.
+
+// I decided to give my life to Jesus Christ when I was going through a very difficult point in my life . I did not have a job. I had lost all family members and I couldn't withstand the pain. I thought before I completely give up in life let me try God . Because Jesus saves from sin, He has power over everything , He will make my life better I thought. 
+
+// About this time, I went to Namirembe fishing site at the age of nine years. It was here that I learned about repentance and the cross. Repentance to me means turn from sin and return to God. The cross is a  symbol of death and hope all at the same time . Jesus died  and rose from the dead. Like wise , our old nature must die so that we can live as a brand-new creation in Christ . it was a fundamental change in my life. Jesus saves me by His grace . He died and rose again just to pay the price for my sins.
+
+// I was baptized by Masaka Church at Nabugabo landing Site in 2018 became a member of the church . I also got an opportunity to serve in the church each week. When I got to know Jesus as my savior it affected my daily life. I found that I started hating some of the things I used to do. I became more conscious of my behavior . knowing God and His Holiness has profoundly deepened my love and thanks and appreciation of what Jesus did for us! It  has also helped me to feat Him and pursue righteousness. I compare my life before and after I got saved, and I can truly say that after I received Christ as my savior I have seen favor after favor. To call God my father gives me joy, and knowing I can relate with Him is so comforting.
+
+// I believe in  the lord Jesus Christ , the son of god , who died for our sins and rose again on third day . I trust in his power to transform lives and communities . As a follower of Christ , lam committed to sharing his love and teachings with others, particularly vulnerable children.
+// my Faith is rooted in the Bible, which guides my actions and decisions. lam driven by compassion , empathy, and God’s love and mercy . though hope Uganda  ministries , lam to demonstrate Christ’s love in practical ways , bringing  hope , healing , and transformation to those we serve.
+// I believe in the importance of partnerships and collaboration , working together with like-minded individuals and organizations to achieve our mission. I’m grateful for the opportunity to partner with Hope of the world ministry who share our vision and values. together, let’s bring hope and transformation to Uganda’s children and communities, shining the light of Christ’s love.(john 8:12).

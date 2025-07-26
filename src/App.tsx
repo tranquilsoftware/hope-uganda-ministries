@@ -16,6 +16,8 @@ import FloatingHeader from './components/ui/header/FloatingHeader'
 import SlickSlide from './components/ui/SlickSlide';
 import { BubbleTransition } from './components/transitions/BubbleTransition';
 
+import ChildSponsorship from './components/child-sponsorship/ChildSponsorship';
+
 const pageVariants = {
   initial: {
     opacity: 0,
@@ -91,6 +93,10 @@ function App() {
       
 
       <div className="h-20"/>
+
+      <ChildSponsorship onDonationSuccess={(data) => {
+        console.log('Donation successful!', data);
+      }} />
       <DonateCTA/>
 
 
@@ -108,10 +114,10 @@ function App() {
       <div className="h-20"/>
       <SocialSection/>
        
-      <GoogleMapEmbed 
+      {/* <GoogleMapEmbed 
         className="shadow-xl overflow-hidden"
         height="400px"
-      />
+      /> */}
 
 
       <Footer/>
